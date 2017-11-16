@@ -27,10 +27,12 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  input = gets.stripe
+  
 end
 
 def input_to_index(input)
-  index = input.to_int - 1 
+  index = input.to_int - 1
 
 
 end
