@@ -35,13 +35,16 @@ def turn(board)
     turn(board)
   end
   display_board(board)
+end
 
 
+  
+def move(board , index , argu = "X")
+    board[index] = argu
+end
 
 
 
 def input_to_index(input)
-  index = input.to_int - 1
-
-
+  index = (input).to_int - 1
 end
