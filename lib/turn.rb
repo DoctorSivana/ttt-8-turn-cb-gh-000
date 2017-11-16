@@ -30,7 +30,7 @@ def turn(board)
 end
 
 def input_to_index(input)
-  index = input.to_int 
-  
-  
+  index = input.to_int - 1 
+
+
 end
