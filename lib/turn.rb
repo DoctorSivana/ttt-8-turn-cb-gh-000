@@ -8,7 +8,7 @@ def display_board(board)
 end
 
 def valid_move?(board , index)
-  if position_taken?(board , index) || index.between?(0 , 8)
+  if position_taken?(board , index) && index.between?(0 , 8)
     true
   else
     false
@@ -20,9 +20,9 @@ def position_taken?(board , index)
     true
   elsif board[index] == "X" || board[index] == "O"
     false
-  else
-    false
- end
+  end
+
+
 end
 
 def turn(board)
