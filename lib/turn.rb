@@ -38,7 +38,7 @@ def turn(board)
 end
 
 
-  
+
 def move(board , index , argu = "X")
     board[index] = argu
 end
